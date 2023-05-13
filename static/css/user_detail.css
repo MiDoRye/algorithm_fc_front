@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* header 관련 css 시작 */
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    padding: 0px 200px;
+    background-image: linear-gradient(to right, white, black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 7px 3px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.users_func {
+    width: 220px;
+    height: 100%;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.users_func>p {
+    color: white;
+}
+
+/* header 관련 css 끝 */
+
+
+/* footer 관련 css 시작 */
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(230, 230, 230, 1);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+footer>p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.team_box {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.team_box>li {
+    font-size: 18px;
+    font-weight: bold;
+    width: 210px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team_box>li>a {
+    color: black;
+    transition: 0.5s;
+}
+
+.team_box>li:nth-child(1)>a:hover {
+    color: white;
+}
+
+.team_box>li:nth-child(2)>a:hover {
+    color: white;
+}
+
+.team_box>li:nth-child(3)>a:hover {
+    color: white;
+}
+
+.team_box>li:nth-child(4)>a:hover {
+    color: blue;
+}
+
+/* footer 관련 css 끝 */
+
+
+
+/* 프로필 사진을 중앙에서 살짝 왼쪽으로 이동 */
+.profileImage {
+    float: left;
+    margin-right: 5%;
+    margin-left: 20%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+
+.profileInfo {
+    margin-right: 20%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* 작성 글 목록, 좋아요, 팔로우, 팔로워를 순서대로 배치 */
+.posts {
+    margin-top: 5%;
+}
+
+
+.posts h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.posts table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.likes {
+    margin-top: 5%;
+}
+
+
+.likes h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.likes table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.followers {
+    float: left;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 15%;
+}
+
+
+.followers table {
+    margin-top: 10px;
+}
+
+.followings {
+    margin-top: 5%;
+    margin-right: 30%;
+}
+
+.followings table {
+    margin-top: 10px;
+}
